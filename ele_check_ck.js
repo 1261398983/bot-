@@ -1,9 +1,8 @@
 /**
  * 变量：elmck: 必填，账号cookie
- * cron: 9 9,18 * * *
+ * cron: 0 18 * * *
 */
 
-const $ = new Env('饿了么续期检测');
 const {
     getEnvsByName,
     DisableCk,
