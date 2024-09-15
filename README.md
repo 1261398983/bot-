@@ -6,5 +6,5 @@
 # 寻梦baby
 ==============================================
 # 国内服务器
-            ql repo http://gh.shgdym.xyz/https://github.com/1261398983/-bot.git "饿了么|酷狗音乐" "" "common|ql|sendNotify|notify"
+            ql repo https://github.com/1261398983/bot-.git "^饿了么|酷狗音乐" "" "common|ql|sendNotify|notify"
  
