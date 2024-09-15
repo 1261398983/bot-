@@ -1,6 +1,6 @@
 # 饿了么卡皮巴拉 需要接口才能运行
 """
-cron: 10 */4 * * *
+cron: 10 */2 * * *
 new Env('饿了么卡皮巴拉小餐车');
 """
 import json
@@ -67,7 +67,7 @@ def xsign(api, data, uid, sid, wua, v):
 
     try:
         r = requests.post(
-            "http://jd.97wl.cc:10052/api/getXSign",
+            "http://ai.97wl.cc:10052/api/getXSign",
             # "http://127.0.0.1:18848/api/getXSign",
             json=body
         )
