@@ -3,13 +3,13 @@
  * author:是豪豪呀
  * 可环境变量指定SIGN地址:elmSignUrl
  * export elmSignUrl=''
- *
+ *cron: 1 1 1 1 1
  * 依赖  axios
  */
 
 const $ = new Env('MK饿了么夺宝');
 const axios = require('axios');
-const elmSignUrl = process.env.elmSignUrl ? process.env.elmSignUrl : "http://bj.frp.one:17151/getXSign";
+const elmSignUrl = process.env.elmSignUrl ? process.env.elmSignUrl : "http://ai.97wl.cc:10052/api/getXSign";
 let cookiesArr = []
 
 if (process.env.elmck) {
