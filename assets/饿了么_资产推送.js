@@ -1,7 +1,6 @@
-
 /**
  * 变量：elmck: 必填，CK结尾：wxUid=UID_xxx
- * cron: 9 20 * * *
+ * cron: 0 20 * * *
 */
 
 const $ = new Env('饿了么资产推送');
